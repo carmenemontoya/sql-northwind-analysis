@@ -36,7 +36,9 @@ sql-northwind-analysis/
     ├── salary_above_country_avg.png
     └── products_us_norway.png
 
-📋 Queries Overview
+---
+
+## 📋 Queries Overview
 | SQL File                     | Result Description                                      |
 | ---------------------------- | ------------------------------------------------------- |
 | products_category_join.sql   | Seafood and Produce Products with Categories            |
