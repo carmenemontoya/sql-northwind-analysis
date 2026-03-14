@@ -59,5 +59,5 @@ sql-northwind-analysis/
 
 ## 📝 Notes
 
-- All queries include **comments explaining their purpose**.  
-- The `results/` folder contains **screenshots of query outputs**, named after the SQL files.  
+- All queries include comments explaining their purpose.  
+- The `results/` folder contains screenshots of query outputs, named after the SQL files.  
