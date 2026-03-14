@@ -11,6 +11,7 @@ This project demonstrates the use of **SQL for data analysis** using the Northwi
 
 ## 🗂 Repository Structure
 
+```
 sql-northwind-analysis/
 ├── database/
 │   └── CreateNorthwindDatabase.sql      # Script to create the Northwind database
@@ -36,7 +37,7 @@ sql-northwind-analysis/
     ├── suppliers_shippers_union.png
     ├── salary_above_country_avg.png
     └── products_us_norway.png
-
+```
 ---
 
 ## 📋 Queries Overview
