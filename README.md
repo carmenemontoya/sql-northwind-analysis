@@ -1,12 +1,11 @@
 # SQL Northwind Analysis
 
 [![Portfolio Ready](https://img.shields.io/badge/Portfolio-Ready-brightgreen)](https://github.com/)
-[![Database Skills](https://img.shields.io/badge/Database-SQL%20Server-green)](https://github.com/)
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-SSMS-blue)](https://github.com/)
 
 ## 🎯 Purpose
 
-This project demonstrates the use of **SQL for data analysis** using the Northwind database. It focuses on **joins, subqueries, unions, and filtering techniques** to answer business questions related to products, employees, suppliers, and orders. The goal is to showcase practical SQL skills, query optimization, and the ability to present query results clearly for portfolio purposes.
+This project demonstrates the use of **SQL for data analysis** using the Northwind database. It focuses on **joins, subqueries, unions, and filtering techniques** to answer business questions related to products, employees, suppliers, and orders. The goal is to showcase practical **SQL skills, query optimization, and clear result presentation** for portfolio purposes.
 
 ---
 
@@ -41,15 +40,23 @@ sql-northwind-analysis/
 ---
 
 ## 📋 Queries Overview
-| SQL File                     | Result Description                                      |
-| ---------------------------- | ------------------------------------------------------- |
-| products_category_join.sql   | Seafood and Produce Products with Categories            |
-| salary_above_avg.sql         | Employees with Salary Above Company Average             |
-| avg_salary_city_union.sql    | Average Salaries in Seattle and London                  |
-| products_high_quantity.sql   | Products Ordered in Quantities ≥ 120                    |
-| suppliers_same_city.sql      | Suppliers in Same Cities as Employees                   |
-| employees_west_region.sql    | Employees Managing Western Region Territories           |
-| customers_madrid_paris.sql   | Customers in Madrid or Paris with Order IDs             |
-| suppliers_shippers_union.sql | Combined List of Supplier and Shipper Names with Phones |
-| salary_above_country_avg.sql | Employees Earning Above Country Average Salary          |
-| products_us_norway.sql       | Products Supplied by Vendors in USA and Norway          |
+
+| SQL File | Result Description |
+|----------|------------------|
+| products_category_join.sql | Displays ProductID, ProductName, and CategoryName for all products in the “Seafood” and “Produce” categories using an inner join. |
+| salary_above_avg.sql | Lists employees’ last name, first name, title, and salary for those earning above the company-wide average salary using a non-correlated subquery. |
+| avg_salary_city_union.sql | Shows the average salaries of employees in Seattle and London, calculated per city, combined into a single result set using a union operation. |
+| products_high_quantity.sql | Lists the names of products that have been ordered in quantities of 120 or more, using a non-correlated subquery to filter results. |
+| suppliers_same_city.sql | Displays supplier names and cities for suppliers located in the same cities as Northwind employees, using a non-correlated subquery. |
+| employees_west_region.sql | Shows the names of employees managing territories in the Western region, using inner joins across Employees, EmployeeTerritories, Territories, and Region, without duplicates. |
+| customers_madrid_paris.sql | Displays customer names, cities, and order IDs for customers in Madrid or Paris, showing all customers regardless of whether they have placed orders using an outer join. |
+| suppliers_shippers_union.sql | Combines supplier and shipper names with their phone numbers into a single alphabetical list using a union operation. |
+| salary_above_country_avg.sql | Lists employee names, salaries, and countries for those earning above the average salary in their respective countries using a correlated subquery. |
+| products_us_norway.sql | Displays product names and supplier countries for products supplied by vendors in the USA and Norway, sorted alphabetically by product name, using an inner join. |
+
+---
+
+## 📝 Notes
+
+- All queries include **comments explaining their purpose**.  
+- The `results/` folder contains **screenshots of query outputs**, named after the SQL files.  
