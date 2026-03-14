@@ -1,8 +1,8 @@
-# 📝 SQL Northwind Analysis
+# SQL Northwind Analysis
 
 [![Portfolio Ready](https://img.shields.io/badge/Portfolio-Ready-brightgreen)](https://github.com/)
 
-## Purpose
+## 🎯 Purpose
 
 This project demonstrates the use of **SQL for data analysis** using the Northwind database. It focuses on **joins, subqueries, unions, and filtering techniques** to answer business questions related to products, employees, suppliers, and orders. The goal is to showcase practical SQL skills, query optimization, and the ability to present query results clearly for portfolio purposes.
 
