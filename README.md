@@ -12,29 +12,29 @@ This project demonstrates the use of **SQL for data analysis** using the Northwi
 
 sql-northwind-analysis/
 ├── database/
-│ └── CreateNorthwindDatabase.sql # Script to create the Northwind database
+│   └── CreateNorthwindDatabase.sql      # Script to create the Northwind database
 ├── queries/
-│ ├── products_category_join.sql
-│ ├── salary_above_avg.sql
-│ ├── avg_salary_city_union.sql
-│ ├── products_high_quantity.sql
-│ ├── suppliers_same_city.sql
-│ ├── employees_west_region.sql
-│ ├── customers_madrid_paris.sql
-│ ├── suppliers_shippers_union.sql
-│ ├── salary_above_country_avg.sql
-│ └── products_us_norway.sql
+│   ├── products_category_join.sql
+│   ├── salary_above_avg.sql
+│   ├── avg_salary_city_union.sql
+│   ├── products_high_quantity.sql
+│   ├── suppliers_same_city.sql
+│   ├── employees_west_region.sql
+│   ├── customers_madrid_paris.sql
+│   ├── suppliers_shippers_union.sql
+│   ├── salary_above_country_avg.sql
+│   └── products_us_norway.sql
 └── results/
-├── products_category_join.png
-├── salary_above_avg.png
-├── avg_salary_city_union.png
-├── products_high_quantity.png
-├── suppliers_same_city.png
-├── employees_west_region.png
-├── customers_madrid_paris.png
-├── suppliers_shippers_union.png
-├── salary_above_country_avg.png
-└── products_us_norway.png
+    ├── products_category_join.png
+    ├── salary_above_avg.png
+    ├── avg_salary_city_union.png
+    ├── products_high_quantity.png
+    ├── suppliers_same_city.png
+    ├── employees_west_region.png
+    ├── customers_madrid_paris.png
+    ├── suppliers_shippers_union.png
+    ├── salary_above_country_avg.png
+    └── products_us_norway.png
 
 📋 Queries Overview
 | SQL File                     | Result Description                                      |
