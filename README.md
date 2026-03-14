@@ -1,6 +1,8 @@
 # SQL Northwind Analysis
 
-[![SQL](https://img.shields.io/badge/SQL-Advanced-blue)](https://github.com/)
+[![Portfolio Ready](https://img.shields.io/badge/Portfolio-Ready-brightgreen)](https://github.com/)
+[![Database Skills](https://img.shields.io/badge/Database-SQL%20Server-green)](https://github.com/)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-SSMS-blue)](https://github.com/)
 
 ## 🎯 Purpose
 
