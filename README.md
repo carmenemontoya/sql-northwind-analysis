@@ -5,7 +5,7 @@
 
 ## 🎯 Purpose
 
-This project demonstrates the use of **SQL for data analysis** using the Northwind database. It focuses on **joins, subqueries, unions, and filtering techniques** to answer business questions related to products, employees, suppliers, and orders. The goal is to showcase practical **SQL skills, query optimization, and clear result presentation** for portfolio purposes.
+This project demonstrates SQL querying and database analysis skills using the Northwind database, a sample relational database that models a small business’s sales, products, suppliers, customers, and employees. The goal of this project is to explore the dataset, answer business questions, and showcase hands-on SQL skills including joins, subqueries, filtering, and aggregations.
 
 ---
 
